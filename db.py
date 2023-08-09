@@ -11,3 +11,4 @@ for jpg in jpgreads:
         print('Purifying ' + jpg)
         os.popen('cp ~/dbedition/db.jpg ' + jpg)
 jpgfile.close()
+print('Purification complete')
