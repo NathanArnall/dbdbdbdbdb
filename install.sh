@@ -1,3 +1,4 @@
+cd ~
 mkdir dbedition
 cd dbedition
 curl https://raw.githubusercontent.com/NathanArnall/dbdbdbdbdb/main/createfiles.sh > createfiles.sh
