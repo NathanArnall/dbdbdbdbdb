@@ -1,4 +1,4 @@
-DBE
+DB Edition
 
 <body>This is an inside joke, move along.</body>
 
