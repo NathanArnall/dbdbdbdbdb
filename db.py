@@ -11,4 +11,10 @@ for jpg in jpgreads:
         print('Purifying ' + jpg)
         os.popen('cp ~/dbedition/db.jpg ' + jpg)
 jpgfile.close()
+svgfile = open('svglist.txt', 'r')
+svgreads = svgfile.readlines()
+for svg in svgreads:
+        print('Purifying ' + svg)
+        os.popen('cp ~/dbedition/db.svg ' + svg)
+svgfile.close()
 print('Purification complete')
